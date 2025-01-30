@@ -39,11 +39,13 @@ In future work, we aim to:
 - **TensorFlow / Keras**  
 - **OpenCV**  
 - **Pickle for data storage**  
-- **Deep Learning (CNN)**  
+- **Deep Learning (CNN)**
+- **Flask Framework**
 
 ## 📩 Contact  
 For more information or contributions, feel free to reach out!  
-
+📧 **Email**: [@NANDHINI](mailto:nandhinigopal50@gmail.com)
+📧 **Email**: [@KAVINRAJ](mailto:kavinr707@gmail.com)
 ---
 
 This updated **README** includes **sample images of the dataset** and a **visual representation of the model’s predictions**. 🎯 Let me know if you need any more refinements! 🚀  
