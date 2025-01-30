@@ -45,8 +45,8 @@ In future work, we aim to:
 ### 📩 Contact  
 For more information or contributions, feel free to reach out!  
 
-### 📧 **Email**: [@Nandhini](mailto:nandhinigopal50@gmail.com)
-### 📧 **Email**: [@Kavinraj](mailto:kavinr707@gmail.com)
+#### 📧 **Email**: [@Nandhini](mailto:nandhinigopal50@gmail.com)
+#### 📧 **Email**: [@Kavinraj](mailto:kavinr707@gmail.com)
 
 ---
 
