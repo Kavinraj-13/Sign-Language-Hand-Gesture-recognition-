@@ -44,8 +44,10 @@ In future work, we aim to:
 
 ## 📩 Contact  
 For more information or contributions, feel free to reach out!  
+<p style="font-size:18px; font-weight:bold;">
 📧 **Email**: [@NANDHINI](mailto:nandhinigopal50@gmail.com)
 📧 **Email**: [@KAVINRAJ](mailto:kavinr707@gmail.com)
+</p>
 ---
 
 This updated **README** includes **sample images of the dataset** and a **visual representation of the model’s predictions**. 🎯 Let me know if you need any more refinements! 🚀  
