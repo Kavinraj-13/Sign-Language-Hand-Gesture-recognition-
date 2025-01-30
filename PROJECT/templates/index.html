@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="icon" href="/static/images/help (1).png" title="images/icon">
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+          <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+          <link rel="stylesheet" href="/static/css/style.css">
+          <title>SLR</title>
+</head>
+<body>
+          <header class="header">
+                    <img src="/static/images/help (1).png" alt="SLR">
+                    <span class="header_title">Sign Language Recognition</span>
+                    <nav class="header_nav">
+                        <ul class="header_ul">
+                            <li><a href="#Home"><i class="fa-solid fa-house-person-return"></i> Home </a></li>
+                            <li><a href="#About"><i class="fa-regular fa-circle-info"></i> About</a></li>
+                            <li><a href="#SLR"><i class="fa-regular fa-hands-asl-interpreting"></i> SLR</a></li>
+                        </ul>
+                    </nav>
+          </header>
+        <main class="center_main" id="Home">
+
+            <section class="center-layer"> <video src="/static/images/Animation - 1736620309331.mp4" autoplay loop ></video>
+                <h1>Welcome to Sign Language Recognition</h1>
+                <p>Sign language recognition (SLR) is a technology that enables computers to interpret and understand sign languages used by the deaf and hard-of-hearing community. It combines computer vision, natural language processing, and machine learning to analyze gestures, hand movements, facial expressions, and body posture to accurately translate them into spoken or written language.Bridging the Communication Gap:It allows seamless communication between people with hearing impairments and the rest of society.
+                Increased Accessibility:Enhances accessibility in various sectors like education, healthcare, and customer service.Real-Time Assistance:Offers real-time translation for daily conversations, making communication faster and more effective.</p>
+                </section>
+
+                <section class="secondlayer" id="About">
+                    <div class="slideshow" >
+                        <div class="slideshow-images">
+                          <img src="/static/images/pexels-rdne-10029257.jpg" alt="Image 1">
+                          <img src="/static/images/pexels-kevin-malik-9017045.jpg" alt="Image 2">
+                          <img src="/static/images/pexels-kevin-malik-9017735.jpg" alt="Image 3">
+                        </div>
+                      </div>
+                      <p>Predict your sign here <br>
+                        <i class="fa-light fa-angles-down" style="font-size: 54px; " id="SLR" onclick="scroll"> </i>
+                    </p>
+                </section>
+        </main>
+        <section class="prediction" id="SLR">
+            <div class="prediction-2" style="color: rgb(107, 0, 174);">
+               <h1>Sign Language Recognition</h1>
+               <div class="video-container">
+                <img src="{{ url_for('video_feed') }}" alt="Video Feed" onerror="this.src='/images/help (1).png';">
+               </div>
+            </div>
+        </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

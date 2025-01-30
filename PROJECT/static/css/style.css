@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css');
+*{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+          background-image: url('/static/images/pexels-brett-sayles-1272752.jpg');
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size:cover;
+          font-family: 'poppins', sans-serif;
+          font-weight: 500;
+          color: #fffcf7;
+          overflow-x: hidden;
+
+}
+
+
+.header { 
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 4.5rem;
+          padding: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          backdrop-filter: blur(5px);
+          background-color: rgba(22, 27, 52, 0.6) ;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.header_nav{
+          margin-left :auto;
+          
+}
+
+.header_ul {
+          list-style-type: none;
+          display: flex;
+}
+
+
+.header_ul li a{
+          text-decoration: none;  
+          margin: 1rem;
+          color: #fffcf7;
+          font-family: 'poppins', sans-serif;
+          font-weight: 300;
+          align-items: center;
+            
+}
+
+header img {
+          margin: 15px;
+          height: 50px;
+          width: 50px;
+
+}
+
+header span{
+          margin: 1rem;
+          align-items: start;
+          font-weight: 400;
+
+}
+
+.header_nav a:hover{
+          color: rgb(86, 139, 255);
+          transition: all 0.3s ease-in-out;
+          
+}
+main {
+    padding-top: 6rem;
+    position: relative;
+    z-index: -1;
+}
+
+.center-layer {
+
+          margin: 4rem;
+          width:90%;
+          max-width: 1200px;
+          height: 500px;
+          max-width: 1300px;
+          padding: 2rem;
+          background-color: rgba(71, 73, 115, 0.6);
+          backdrop-filter: blur(2px);
+          border-radius: 10px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+          color: #fffcf7;
+          text-align: center;
+          
+      }
+
+.center-layer video {
+        display: flex;
+        max-width: 500px;
+        width: 100%;
+        height: 430px;
+        border-radius: 10px;
+      }
+      .center-layer h1 {
+          font-weight: bold;
+          font-size: 24px;
+          position: fixed;
+          left: 42rem;
+          top: 6rem;
+      }
+      .center-layer p{
+          width: 600px;
+          font-weight: 300;
+          position: absolute;
+          left: 38rem;
+          top: 10rem;
+          text-align: justify;
+          
+      }
+
+      .secondlayer { 
+        background-color: rgba(166, 154, 172, 0.9);
+        backdrop-filter: blur(3px);
+        width:100%;
+        height: 33rem;
+        max-height:auto;
+        padding: 10px;
+        text-align: center;
+      }
+      .secondlayer p{
+        font-size: 22px;
+        position: relative;
+        bottom: 30px;
+        color: rgb(255, 255, 255);
+      }
+
+      .slideshow {
+        height: 28rem ;
+        width: 87rem;
+        margin: auto;
+        padding: 20px;
+        overflow: hidden;
+        position: relative;
+
+      }
+
+      .slideshow-images {
+        display: flex;
+        width: 400px; /* 100% for each image (3 images = 300%) */
+        animation: slide 9s infinite; /* Adjust timing as needed */
+      }
+
+      .slideshow-images img {
+        width: 200%;
+        display: block;
+      }
+
+      .prediction{
+        height: 600px;
+        background-color: #E8EDDF;
+        text-align: center;
+      }
+      .video-container {
+        width: 640px;
+        height: 480px;
+        margin: 0 auto;
+        display: flex;
+         justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(107, 0, 174);
+        overflow: hidden;
+      }
+
+        .video-container img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+        }
+      
+      @keyframes slide {
+        0% {
+          transform: translateX(0%);
+        }
+        33.33% {
+          transform: translateX(-100%);
+        }
+        66.66% {
+          transform: translateX(-200%);
+        }
+        100% {
+          transform: translateX(0%);
+        }
+      }
