@@ -10,7 +10,7 @@ This project focuses on **Sign Language Recognition (SLR)** using deep learning 
 
 ### 📸 Sample Dataset Images  
 Here are some example images from our dataset:  
-![Untitled design (3)](https://github.com/user-attachments/assets/0443e301-772a-4192-b28e-683909a8d087)
+#######![Untitled design (3)](https://github.com/user-attachments/assets/0443e301-772a-4192-b28e-683909a8d087)
 
 
 ## 🔄 Data Processing  
