@@ -1,7 +1,7 @@
 # Sign Language Recognition (SLR)  
 
 ## 📌 Project Overview  
-This project focuses on **Sign Language Recognition (SLR)** using deep learning techniques. We built a system that recognizes hand gestures corresponding to 20 alphabet characters. The goal is to develop an accurate and efficient model for sign language recognition.  
+This project focuses on **Sign Language Recognition (SLR)** using deep learning techniques. We built a system that recognizes hand gestures corresponding to 26 alphabet characters. The goal is to develop an accurate and efficient model for sign language recognition.  
 
 ## 📊 Dataset Collection  
 - We collected our own dataset consisting of **26 alphabet characters**.  
